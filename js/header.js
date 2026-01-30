@@ -60,11 +60,14 @@
     </div>
   </div>
 
-  <!-- Main Navigation Bar -->
+  <!-- Main Navigation Barr --> 
   <div class="hdr-main">
     <div class="hdr">
       <a class="hdr-logo" href="index.html" aria-label="Startseite">
-        <img src="https://artex-trans.de/wp-content/uploads/2021/07/LOGO-ARTEX-TRANS-2-300x67.jpg" alt="Artex-Trans Logo">
+        <img 
+        src="/assets/images/logos/logo.jpeg" 
+        alt="Artex-Trans Logo"
+        loading="eager">
       </a>
 
       <!-- Inline-Page-Title (nur mobil im Shrink sichtbar) -->

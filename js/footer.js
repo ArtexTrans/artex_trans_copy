@@ -5,7 +5,10 @@
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-left">
-        <img class="ft-logo" src="https://artex-trans.de/wp-content/uploads/2021/07/LOGO-ARTEX-TRANS-2-300x67.jpg" alt="Artex-Trans Autoagentur">
+        <img 
+        src="/assets/images/logos/logo.jpeg" 
+        alt="Artex-Trans Logo"
+        loading="eager">
         <h3>Kontakt</h3>
         <p>
           Norderneystraße 7<br>
