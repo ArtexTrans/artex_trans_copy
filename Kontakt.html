@@ -241,19 +241,37 @@
 
 
     <!-- Kontaktformular -->
-    <form id="kontakt-form">
-      <div class="row">
-        <input type="text" name="vorname" placeholder="Vorname" required>
-        <input type="text" name="nachname" placeholder="Nachname" required>
-      </div>
-      <div class="row">
-        <input type="tel" name="telefon" placeholder="Telefonnummer">
-        <input type="email" name="email" placeholder="E-Mail" required>
-      </div>
-      <textarea name="nachricht" placeholder="Nachricht"></textarea>
-      <button type="submit">Senden</button>
-      <p id="kontakt-note" style="display:none;margin-top:8px;font-size:0.9rem;color:#6b7280"></p>
-    </form>
+    <!-- Kontaktformular (Netlify-ready + weiterhin per JS an API) -->
+<form id="kontakt-form"
+      name="kontakt"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field">
+
+  <!-- Netlify needs this hidden input to register the form -->
+  <input type="hidden" name="form-name" value="kontakt">
+
+  <!-- Honeypot (spam) -->
+  <p style="display:none;">
+    <label>Bitte nicht ausfüllen: <input name="bot-field"></label>
+  </p>
+
+  <div class="row">
+    <input type="text" name="vorname" placeholder="Vorname" required>
+    <input type="text" name="nachname" placeholder="Nachname" required>
+  </div>
+
+  <div class="row">
+    <input type="tel" name="telefon" placeholder="Telefonnummer">
+    <input type="email" name="email" placeholder="E-Mail" required>
+  </div>
+
+  <textarea name="nachricht" placeholder="Nachricht"></textarea>
+
+  <button type="submit">Senden</button>
+  <p id="kontakt-note" style="display:none;margin-top:8px;font-size:0.9rem;color:#6b7280"></p>
+</form>
+
 
     <!-- Karte -->
     <div class="map">
