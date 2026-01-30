@@ -18,9 +18,11 @@
         <p>Tel.: <a href="tel:+494213965171">+49 (0) 421 3965171</a></p>
         <p>E-Mail: <a href="mailto:info@artex-trans.de">info@artex-trans.de</a></p>
         <p>
+        <br>
           <strong>Öffnungszeiten:</strong><br>
-          Montag – Samstag: 10:00 – 18:00 Uhr<br>
-          Sonntag: geschlossen
+          Montag – Freitag: 10:00 – 18:00 Uhr<br>
+          Samstag: 11:00 – 15:00 Uhr<br>
+          Sonntag: Geschlossen
         </p>
       </div>
 
